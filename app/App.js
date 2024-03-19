@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { PaperProvider, MD2LightTheme } from 'react-native-paper';
+import { PaperProvider, MD3LightTheme } from 'react-native-paper';
 import { Appbar } from 'react-native-paper';
 import { es, registerTranslation } from 'react-native-paper-dates';
 import dayjs from 'dayjs';
@@ -45,7 +45,7 @@ export default function App() {
   return (
     <PaperProvider
       theme={{
-        ...MD2LightTheme,
+        ...MD3LightTheme,
         colors: {
           primary: '#0ea5e9',
         },

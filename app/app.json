@@ -21,10 +21,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.github.alejandrorm_dev.infield_toolkit",
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d1d9d9cb-e8b7-47c1-9acd-e5bbb969727a"
+      }
+    },
+    "owner": "alejandrorm94"
   }
 }
